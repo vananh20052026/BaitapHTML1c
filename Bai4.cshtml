@@ -1,0 +1,73 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Bai4</title>
+</head>
+<body>
+    <form action="" method="post">
+        <h1>NHẬP THÔNG TIN SINH VIÊN</h1>
+        <table>
+            <tr>
+                <td><label>HỌ VÀ TÊN:</label>
+                <input id="name" type="text" maxlength="50" tabindex="1"/></td>
+            </tr>
+            <tr>
+                <td><label>MÃ SỐ SINH VIÊN:</label>
+                <input id="id" type="text" maxlength="10" tabindex="2" /></td>
+            </tr>
+            <tr>
+                <td><label>NGÀY SINH:</label>
+                <input id="birth" type="date" value="mm/dd/yyyy" /></td>
+            </tr>
+            <tr>
+                <td><label>CHUYÊN NGÀNH:</label>
+                <input type="radio" name="major" value="CNPM" />CNPM
+                <input type="radio" name="major" value="HTTT" />HTTT
+                <input type="radio" name="major" value="ANM"/>AN NINH MẠNG</td>
+            </tr>
+            <tr>
+                <td><label>SỞ THÍCH</label></td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="love" id="love1" />VIẾT CHƯƠNG TRÌNH</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="love" id="love1" />PHÂN TÍCH CSDL</td>
+            </tr>
+            <tr>
+                <td><input type="checkbox" name="love" id="love1" />XÂY DỰNG SƠ ĐỒ MẠNG</td>
+            </tr>
+            <tr>
+                <td><label>MÀU SẮC YÊU THÍCH</label>
+                <input type="color" name="color" id="color" value="black" />
+                </td>
+            </tr>
+            <tr>
+                <td><label>HÌNH ĐẠI DIỆN</label>
+                <input type="file" name="file" />
+                </td>
+            </tr>
+            <tr>
+                <td><label>TÊN ĐĂNG NHẬP WEB TRƯỜNG:</label>
+                <input type="text" id="nameid" maxlength="15"/>
+                </td>
+            </tr>
+            <tr>
+                <td><label>MẬT KHẨU ĐĂNG NHẬP WEB TRƯỜNG</label>
+                <input type="password" id="pass" maxlength="15" />
+                </td>
+            </tr>
+            <tr>
+                <td><button>Gửi dữ liệu về máy chủ</button></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
